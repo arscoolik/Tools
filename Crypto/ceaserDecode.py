@@ -1,4 +1,4 @@
-message = input("Enter encoded message please:")
+message = input("Enter encoded message:")
 SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
 for key in range(len(SYMBOLS)):
     translated = ''
