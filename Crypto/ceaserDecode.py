@@ -1,4 +1,4 @@
-message = input("Enter encoded message:")
+message = input("Enter message to decode:")
 SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
 for key in range(len(SYMBOLS)):
     translated = ''
@@ -9,4 +9,4 @@ for key in range(len(SYMBOLS)):
             translated = translated + SYMBOLS[translatedIndex]
         else:
             translated = translated + symbol
-    print('Key #%s: %s' % (key, translated))
+    print('Key #%s: %s' % (len(SYMBOLS) -  key, translated))
